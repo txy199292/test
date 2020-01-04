@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--设置返回按钮图标-->
+       <!-- <item name="android:homeAsUpIndicator">@drawable/ic_delete</item>-->
+        <!--设置返回按钮颜色  若自定义了返回按钮图标 则设置颜色无效-->
+        <!--<item name="colorControlNormal">@color/colorAccent</item>-->
+        <!--toolbar标题文字颜色-->
+        <!--<item name="android:textColorPrimary">@color/colorWhite</item>-->
+        <!--toolbar标题文字颜色-->
+        <!--<item name="actionMenuTextColor">@color/colorAccent</item>-->
+        <!--toolbar标题文字大小-->
+        <!--<item name="android:actionMenuTextAppearance">@style/ToolbarTitleSize</item>-->
+        <item name="actionOverflowMenuStyle">@style/AppOverflowMenuStyle</item>
+    </style>
+
+    <style name="AppOverflowMenuStyle" parent="@android:style/Widget.Material.PopupMenu.Overflow">
+        <!-- 不让它覆盖 actionbar -->
+        <item name="overlapAnchor">false</item>
+        <!-- 设置弹出的背景颜色 -->
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+
+
+
+    <style name="ToolbarTitleSize" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="FruitActivityTheme" parent="AppTheme">
+    </style>
+
+</resources>

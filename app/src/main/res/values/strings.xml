@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_page">首页</string>
+    <string name="sure">确定</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+</resources>
